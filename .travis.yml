@@ -2,14 +2,14 @@ sudo: false
 
 language: node_js
 node_js:
-    - 9
+  - 9
 
 branches:
-    only:
+  only:
     - master
 
 deploy:
-    provider: heroku
-    app: test-ci-teh
-    api_key:
+  provider: heroku
+  app: test-ci-teh
+  api_key:
     secure: 368ca3c5-7e94-466a-b5a2-3565d6b3dc7a
