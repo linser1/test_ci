@@ -7,3 +7,9 @@ node_js:
 branches:
     only:
     - master
+
+deploy:
+    provider: heroku
+    app: test-ci-teh
+    api_key:
+    secure: 368ca3c5-7e94-466a-b5a2-3565d6b3dc7a
